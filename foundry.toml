@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+test = "test"
+libs = ["lib"]
+solc_version = "0.8.15"
+
+remappings = [
+    "optimism/=lib/optimism/packages/contracts-bedrock/src/",
+    "src/=lib/optimism/packages/contracts-bedrock/src/",
+    "interfaces/=lib/optimism/packages/contracts-bedrock/interfaces/",
+    "scripts/=lib/optimism/packages/contracts-bedrock/scripts/",
+    "@openzeppelin/=lib/openzeppelin-contracts/"
+]
